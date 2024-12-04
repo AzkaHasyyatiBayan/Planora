@@ -55,7 +55,7 @@
           </tr>
         </tbody>
       </table>
-      <button @click="goToMatrix" style="text-align: center; justify-content: center; width: fit-content; height: 80%; margin-top: 20px; padding: 5px 10px; display: flex;">Lihat Matrix Tugas</button>
+      <button @click="goToMatrix" style="text-align: center; justify-content: center; width: fit-content; height: 40%; margin-top: 20px; padding: 5px 10px; display: flex;">Lihat Matrix Tugas</button>
     </div>
   </template>
   
@@ -128,10 +128,27 @@
   form {
     min-height: 50px;
     display: flex;
-    flex-direction: flex;
+    flex-direction: row;
     gap: 15px;
     margin-bottom: 0;
     margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    form {
+      flex-direction: column;
+      align-items: stretch; 
+    }
+
+    form input,
+    form select {
+      width: 100%;
+    }
+
+    div {
+      padding: 10px;
+    }
+
   }
 
   form label {
@@ -162,6 +179,7 @@
     padding: 10px 20px; 
     font-size: 16px;
     height: 40%;
+    text-align: center;
   }
 
   body.dark form input,

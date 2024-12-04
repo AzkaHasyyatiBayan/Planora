@@ -41,7 +41,7 @@ Dengan pendekatan ini, tugas yang lebih mirip dengan tugas penting yang sudah ad
 Aplikasi **Planora** ini dikembangkan sebagai bagian dari tugas akhir untuk mata kuliah **Aljabar Linear**, dengan tujuan untuk memanfaatkan konsep-konsep matematika dan algoritma terutama "Matriks" dalam manajemen tugas. Matriks Eisenhower dan KNN dengan Euclidean Distance diimplementasikan untuk memberikan pengalaman pengguna yang efisien dalam mengelola dan memprioritaskan tugas-tugas yang ada. Aplikasi ini dikembangkan oleh kelompok 6, yang terdiri dari 3 anggota, yaitu:
   1. Anggota 1: Azka Hasyyati Bayan dengan NPM 237006057 dari kelas C.
   2. Anggota 2: Rafli Putra Nursya'bani dengan NPM 237006083 dari kelas C.
-  3. Anggota 3: Dimas Setiawan dengan NOM 237006090 dari kelas C.
+  3. Anggota 3: Dimas Setiawan dengan NPM 237006090 dari kelas C.
 
 *F. Cara Menjalankan Aplikasi*
   1. Clone repository ini ke komputer lokal:

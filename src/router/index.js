@@ -4,6 +4,10 @@ import matrixpage from '../components/matrixpage.vue';
 
 const routes = [
   {
+    path: '/',
+    redirect: '/tasks',
+  },
+  {
     path: '/tasks',
     name: 'tasks',
     component: tasks,
